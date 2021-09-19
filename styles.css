@@ -64,7 +64,7 @@ a.active, a:hover{
 
 .checkbtn{
   font-size: 22px;
-  color: #edf0f1;
+  color: #B3B3B3;
   float: right;
   margin-top: 22px;
   margin-right: 50px;
@@ -253,7 +253,7 @@ footer .contenedor {
 
 
 /* Responsive */
-@media (max-width: 1240px) {
+@media (max-width: 1300px) {
   .checkbtn{
     display: block;
   }
