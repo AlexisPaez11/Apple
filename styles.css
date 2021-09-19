@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  display: block;
   height: 70px;
   width: 100%;
   position: fixed;
@@ -24,8 +25,6 @@ nav{
 
 nav ul{
   list-style: none;
-  float: right;
-  margin-right: 275px;
   text-align: center;
 }
 
@@ -37,7 +36,7 @@ nav ul li{
 
 nav ul li a{
   font-size: 16px;
-  color: #edf0f1;
+  color: #B3B3B3;
   text-decoration: none;
   padding: 10px 13px;
   border-radius: 3px;
@@ -76,78 +75,111 @@ a.active, a:hover{
   display: none;
 }
 
+@media (max-width: 1300px) {
+  .checkbtn{
+    display: block;
+  }
 
-
-
-
-
-
-
-
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #24252a;
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover, a.active{
+    background: none;
+    color: #24252a;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
 
 
 
 /* main */
 
+main {
+  padding-top: 70px;
+}
+
 .section1 {
   width: 100%;
-  height: 665px;
+  height: 590px;
+  padding-top: 50px;
   background: url(Imagenes/Iphone13.png) rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 80%;
+  background-size: 35%;
+  /* margin-bottom: 50px; */
 }
 
-/* .section1 {
-  background: red;
-  width: 100%;
-  height: 675px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: #f2f2f2;
-  margin-bottom: 50px;
-} */
-
-h1, p {
-  color: #24252a;
-  position: absolute;
+@media (max-width: 1200px) {
+  .section1 {
+    background-size: 45%;
+  }
 }
 
-h1 {
-  font-size: 46px;
-  margin: 520px;
+@media (max-width: 100px) {
+  .section1 {
+    background-size: 55%;
+  }
 }
 
-p {
-  font-size: 19px;
-  width: 600px;
-  margin: 435px;
+@media (max-width: 800px) {
+  .section1 {
+    background-size: 65%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section1 {
+    background-size: 75%;
+  }
+}
+
+.iphone13 {
   text-align: center;
+  padding: 0 12%;
 }
 
-.cta_links {
-  position: absolute;
-  margin: 395px;
+.iphone13-h1 {
+  font-size: 56px;
+  color: #24252a;;
 }
 
-.cta_links a {
-  font-size: 19px;
-  margin: 0px 20px;
+.iphone13-p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #86868b;
+}
+
+.iphone13-link {
+  margin-top: 18px;
+  font-size: 22px;
+}
+
+.iphone13-link a {
   color: #0071e3;
+  margin: 0px 20px;
   text-decoration: none;
 }
 
-.cta_links a:hover {
+.iphone13-link a:hover {
   text-decoration: underline;
 }
-
-
-
-
-
-
-
 
 
 
@@ -249,38 +281,4 @@ footer .contenedor {
 
 .contenedor div li a:hover {
   text-decoration: underline;
-}
-
-
-/* Responsive */
-@media (max-width: 1300px) {
-  .checkbtn{
-    display: block;
-  }
-
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: #24252a;
-    top: 70px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  nav ul li{
-    display: block;
-    margin: 30px 0;
-    line-height: 30px;
-  }
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover, a.active{
-    background: none;
-    color: #24252a;
-  }
-  #check:checked ~ ul{
-    left: 0;
-  }
 }
