@@ -50,30 +50,30 @@ a.active, a:hover{
   transition: 0.3s;
 }
 
-.checkbtn{
-  font-size: 22px;
-  color: #edf0f1;
-  float: right;
-  margin-top: 22px;
-  margin-right: 100px;
-  cursor: pointer;
-  display: none;
-}
-
-#check{
-  display: none;
+.nav_links li a:hover {
+  color: #edf0f185;
 }
 
 .logo {
   height: 25px;
   float: left;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
   cursor: pointer;
 }
 
-.nav_links li a:hover {
-  color: #edf0f185;
+.checkbtn{
+  font-size: 22px;
+  color: #edf0f1;
+  float: right;
+  margin-top: 22px;
+  margin-right: 50px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
 }
 
 
