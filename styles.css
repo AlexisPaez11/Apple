@@ -168,13 +168,13 @@ main {
 
 .iphone13-link {
   margin-top: 18px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .iphone13-link a {
   display: inline-block;
   color: #0071e3;
-  margin: 0px 20px;
+  margin: 0px 15px;
   text-decoration: none;
 }
 
