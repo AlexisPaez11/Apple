@@ -54,7 +54,7 @@ a.active, a:hover{
   font-size: 22px;
   color: #edf0f1;
   float: right;
-  line-height: 70px;
+  margin-top: 22px;
   margin-right: 100px;
   cursor: pointer;
   display: none;
