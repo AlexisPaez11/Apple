@@ -134,8 +134,15 @@ main {
 @media (max-width: 800px) {.section1 {background-size: 60%;}}
 @media (max-width: 700px) {.section1 {background-size: 65%;}}
 @media (max-width: 600px) {.section1 {background-size: 70%;}}
-@media (max-width: 500px) {.section1 {background-size: 75%;}}
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .section1 {
+    background-size: 75%;
+  }
+
+  .iphone13-link a {
+    color: plum;
+  }
+}@media (max-width: 400px) {
   .section1 {
     background-size: 80%;
   }
