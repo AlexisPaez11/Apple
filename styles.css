@@ -177,12 +177,10 @@ main {
 @media (max-width: 1000px) {.section1 {background-size: 50%;}}
 @media (max-width: 900px) {.section1 {background-size: 55%;}}
 @media (max-width: 800px) {.section1 {background-size: 60%;}}
-@media (max-width: 700px) {.section1 {background-size: 65%;}  .iphone13-link a {color: chocolate;}}
-@media (max-width: 600px) {.section1 {background-size: 70%;}  .iphone13-link a {color: aqua;}}
-@media (max-width: 500px) {.section1 {background-size: 75%;}  .iphone13-link a {color: plum;}}
-@media (max-width: 400px) {.section1 {background-size: 80%;}  .iphone13-link a {color: palegreen;}}
-@media (max-width: 300px) {.section1 {background-size: 85%;}  .iphone13-link a {color: red;}}
-
+@media (max-width: 700px) {.section1 {background-size: 65%;}}
+@media (max-width: 600px) {.section1 {background-size: 70%;}}
+@media (max-width: 500px) {.section1 {background-size: 75%;}}
+@media (max-width: 400px) {.section1 {background-size: 80%;}  .iphone13-link a {display: block; margin: 15px 0 -5 0;} .section1 {height: 620px;}}
 
 
 
