@@ -122,22 +122,9 @@ main {
   background: url(Imagenes/Iphone13.png) rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-position: center bottom;
-  /* background-size: 35%; */
-  /* margin-bottom: 50px; */
+  background-size: 35%;
 }
 
-
-
-
-@media (max-width: 800px) {
-  /* .iphone13-link {
-    font-size: 18px;
-  }
-  
-  .iphone13-link a {
-    margin: 0px 15px;
-  } */
-}
 
 .iphone13 {
   text-align: center;
@@ -161,7 +148,7 @@ main {
 }
 
 .iphone13-link a {
-  display: inline;
+  display: inline-block;
   color: #0071e3;
   margin: 0px 15px;
   text-decoration: none;
@@ -191,19 +178,13 @@ main {
     padding: 0 0%;
   }
   
-  .iphone13-h1 {
-    padding: 12%;
-  }
-  
-  .iphone13-p {
-    padding: 12%;
+  .iphone13-h1, .iphone13-p {
+    padding: 0 12%;
   }
   
   .iphone13-link {
-  }
-
-  .iphone13-link {
-    margin-top: 30px;
+    margin-top: 18px;
+    font-size: 16px;
   }
 
   .iphone13-link a {
@@ -211,13 +192,12 @@ main {
     background: #0071e3;
     color: white;
     padding: 7px 20px;
-    margin: 0px 15;
+    margin: 0px 10;
     border-radius: 15px;
   }
 
   .iphone13-link a:hover {
-    text-decoration: underline;
-    transform: translateY(-1px);
+    text-decoration: none;
   }
 }
 
