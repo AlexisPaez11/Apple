@@ -181,9 +181,21 @@ main {
 @media (max-width: 700px) {.section1 {background-size: 65%;}}
 @media (max-width: 600px) {.section1 {background-size: 70%;}}
 @media (max-width: 500px) {.section1 {background-size: 75%;}}
-@media (max-width: 400px) {.section1 {background-size: 80%; height: 660px;}  .iphone13-link a {display: block; background: chocolate;padding: 6px 12px;
-border-radius: 15px;}}
+@media (max-width: 400px) {.section1 {background-size: 80%; height: 660px;}
+  .iphone13-link {
+    margin-top: 10px;
+    font-size: 18px;
+  }
 
+  .iphone13-link a {
+    display: block;
+    background: #0071e3;
+    color: white;
+    padding: 6px 8px;
+    margin: 10px 0;
+    border-radius: 15px;
+  }
+}
 
 
 
