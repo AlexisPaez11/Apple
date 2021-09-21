@@ -193,7 +193,7 @@ main {
   }
 
   .iphone13-link {
-    margin: 10px 75px 0 7px;
+    margin: 10px 75px 0 75px;
   }
 
   .iphone13-link a {
@@ -201,7 +201,7 @@ main {
     background: #0071e3;
     color: white;
     padding: 7px 24px;
-    margin: 15px 0;
+    margin: 50px 0;
     border-radius: 15px;
   }
 
