@@ -186,22 +186,32 @@ main {
     background-size: 80%;
     height: 660px;
   }
-    
+
+  .iphone13 {
+    padding: 0 0%;
+  }
+  
+  .iphone13-h1 {
+    padding: 12%;
+  }
+  
+  .iphone13-p {
+    padding: 12%;
+  }
+  
   .iphone13-link {
-    margin-top: 10px;
-    font-size: 18px;
   }
 
   .iphone13-link {
-    margin: 10px 75px 0 75px;
+    margin-top: 18px;
   }
 
   .iphone13-link a {
-    display: inline;
+    display: inline-block;
     background: #0071e3;
     color: white;
-    padding: 7px 24px;
-    margin: 50px 0;
+    padding: 7px 20px;
+    margin: 0px 15;
     border-radius: 15px;
   }
 
