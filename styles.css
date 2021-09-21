@@ -166,10 +166,11 @@ main {
   margin: 0px 15px;
   text-decoration: none;
 }
-
+  
 .iphone13-link a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+  
 
 @media (max-width: 1300px) {.section1 {background-size: 35%;}}
 @media (max-width: 1200px) {.section1 {background-size: 40%;}}
@@ -180,7 +181,8 @@ main {
 @media (max-width: 700px) {.section1 {background-size: 65%;}}
 @media (max-width: 600px) {.section1 {background-size: 70%;}}
 @media (max-width: 500px) {.section1 {background-size: 75%;}}
-@media (max-width: 400px) {.section1 {background-size: 80%;}  .iphone13-link a {display: block;} .section1 {height: 665px;} .iphone13-link {border-radius: 10px; margin: 10px 0;}}}
+@media (max-width: 400px) {.section1 {background-size: 80%; height: 660px;}  .iphone13-link a {display: block; background: chocolate;padding: 6px 12px;
+border-radius: 15px;}}
 
 
 
