@@ -171,7 +171,7 @@ main {
 @media (max-width: 400px) {
   .section1 {
     background-size: 80%;
-    height: 630px;
+    height: 660px;
   }
 
   .iphone13 {
@@ -179,7 +179,7 @@ main {
   }
   
   .iphone13-h1, .iphone13-p {
-    padding: 0 10%;
+    padding: 0 8%;
   }
   
   .iphone13-link {
