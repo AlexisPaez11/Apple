@@ -1,0 +1,15 @@
+.product {
+inline-size: 25rem;
+padding: 0rem 0rem 1rem 0rem;
+border-radius: .5rem;
+background: white;
+box-sizing: border-box;
+}
+
+.product:hover, .product:focus-within {
+    cursor: pointer;
+}
+
+.product:hover {
+    box-shadow: rgba(100, 100, 111, 0.250) 0px 0px 25px 0px;
+  }
