@@ -1,0 +1,33 @@
+footer {
+    margin-block-start: 1.25rem;
+    padding: 3.125rem 3.125rem 1.875rem 3.125rem;
+    background-color: #24252a;
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services-container {
+    display: flex;
+    gap: 10rem;
+  }
+  
+  .services-container div h3 {
+    color: #edf0f1;
+    margin-block-end: .75rem;
+  }
+  
+  .services-container div ul li {
+    list-style: none;
+    line-height: 1.5rem;
+  }
+  
+  .services-container div ul li a {
+    text-decoration: none;
+    color: #edf0f185;
+  }
+  
+  .services-container div ul li a:hover {
+    text-decoration: underline;
+    background: none;
+  }
