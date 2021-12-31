@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Apple</title>
-        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="./css/index.css"/>
         <link rel="icon" href="Imagenes/apple_logo.png" type="image/apple_logo"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     </head>
@@ -31,82 +31,100 @@
                 </ul>
             </nav>
         </header>
+
         <main>
-            <div class="section1">
+            <section aria-labelledby="region1">
+                <div class="frontpage">
                     <h1 class="iphone13 iphone13-h1">Iphone 13</h1>
                     <p class="iphone13 iphone13-p"> Una pantalla OLED de borde a borde. Escudo de cerámica con un rendimiento de caída cuatro veces superior. <br>
-                    Y modo nocturno en todas las cámaras. El iPhone 13 lo tiene todo, en dos tamaños perfectos.</p>
+                        Y modo nocturno en todas las cámaras. El iPhone 13 lo tiene todo, en dos tamaños perfectos.</p>
                     <div class="iphone13 iphone13-link">
                         <a href="https://www.apple.com/iphone-13-pro/">Mas información</a>
                         <a href="https://www.apple.com/shop/buy-iphone/iphone-13-pro">Comprar</a>
                     </div>
                 </div>
-            
-
-            <section class="section2">
-                <div class="producto">
-                    <a href="https://www.apple.com/macbook-pro-13/">
-                        <h2 class="titulo macbook_pro13">Macbook Pro 13</h2>
-                        <img class="producto_img" src="imagenes/macbook_pro13.png" alt=""/>
-                        <div class="cta">
-                            <a href="https://www.apple.com/shop/buy-mac/macbook-pro/13-inch">Comprar</a>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="producto">
-                    <a href="https://www.apple.com/macbook-pro-16/">
-                        <h2 class="titulo macbook_pro16">Macbook Pro 16</h2>
-                        <img class="producto_img" src="imagenes/macbook_pro16.png" alt=""/>
-                        <div class="cta">
-                            <a href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch">Comprar</a>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="producto">
-                    <a href="https://www.apple.com/pro-display-xdr/">
-                        <h2 class="titulo pro_display_xdr">Pro Display XDR</h2>
-                        <img class="producto_img" src="imagenes/pro_display_xdr.png" alt=""/>
-                        <div class="cta">
-                            <a href="https://www.apple.com/shop/buy-mac/pro-display-xdr">Comprar</a>
-                        </div>
-                    </a>
-                </div>
             </section>
-
-            <section class="section3">
-                <div class="producto">
-                    <a href="https://www.apple.com/airpods-max/">
-                        <h2 class="titulo airpods_pro">AirPods Max</h2>
-                        <img class="producto_img" src="imagenes/airpods_pro.png" alt=""/>
-                        <div class="cta">
-                            <a href="https://www.apple.com/shop/buy-airpods">Comprar</a>
+            
+            <section class="productlist" aria-labelledby="region2">
+                <div class="productlist-container">
+                    <div class="productlistList-container">
+                        <div class="product">
+                            <a href="https://www.apple.com/macbook-pro-13/">
+                                <h2 class="product-tittle">Macbook pro 13</h2>
+                                <div class="product-cover">
+                                    <img src="./Imagenes/macbook_pro13.png" width="350px" alt="">
+                                </div>
+                                <div class="product-cta">
+                                    <a href="https://www.apple.com/shop/buy-mac/macbook-pro/13-inch">Comprar</a>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
 
-                <div class="producto">
-                    <a href="https://www.apple.com/homepod-mini/">
-                        <h2 class="titulo homepod_mini">HomePod Mini</h2>
-                        <img class="producto_img" src="imagenes/homepod_mini.png" alt=""/>
-                        <div class="cta">
-                            <a href="https://www.apple.com/shop/buy-homepod/homepod-mini">Comprar</a>
+                        <div class="product">
+                            <a href="https://www.apple.com/macbook-pro-16/">
+                                <h2 class="product-tittle">Macbook pro 16</h2>
+                                <div class="product-cover">
+                                    <img src="./Imagenes/macbook_pro16.png" width="350px" alt="">
+                                </div>
+                                <div class="product-cta">
+                                    <a href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch">Comprar</a>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-
-                <div class="producto">
-                    <a href="https://www.apple.com/shop/accessories/all">
-                        <h2 class="titulo accesorios">Explore mas accesorios</h2>
-                        <img class="producto_img" src="imagenes/accesorios.png" alt=""/>
-                    </a>
-                </div>
+                        
+                        <div class="product">
+                            <a href="https://www.apple.com/pro-display-xdr/">
+                                <h2 class="product-tittle">Pro display XDR</h2>
+                                <div class="product-cover">
+                                    <img src="./Imagenes/pro_display_xdr.png" width="350px" alt="">
+                                </div>
+                                <div class="product-cta">
+                                    <a href="https://www.apple.com/shop/buy-mac/pro-display-xdr">Comprar</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                        
+                    <div class="productlistList-container">
+                        <div class="product">
+                            <a href="https://www.apple.com/airpods-max/">
+                                <h2 class="product-tittle">AirPods Max</h2>
+                                <div class="product-cover">
+                                    <img src="./Imagenes/airpods_pro.png" width="350px" alt="">
+                                </div>
+                                <div class="product-cta">
+                                    <a href="https://www.apple.com/shop/buy-airpods/airpods-max">Comprar</a>
+                                </div>
+                            </a>
+                        </div>
+                                
+                        <div class="product">
+                            <a href="https://www.apple.com/homepod-mini/">
+                                <h2 class="product-tittle">HomePod mini</h2>
+                                <div class="product-cover">
+                                    <img src="./Imagenes/homepod_mini.png" width="350px" alt="">
+                                </div>
+                                <div class="product-cta">
+                                    <a href="https://www.apple.com/shop/buy-homepod/homepod-mini">Comprar</a>
+                                </div>
+                            </a>
+                        </div>
+                                
+                        <div class="product">
+                            <a href="https://www.apple.com/shop/accessories/all">
+                                <h2 class="product-tittle">Explorar mas accesorios</h2>
+                                <div class="product-cover">
+                                    <img src="./Imagenes/accesorios.png" width="350px" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
             </section>
         </main>
+
         <footer>
-            <div class="contenedor">
-                <div class="Servicios">
+            <div class="services-container">
+                <div class="servicesList-container">
                     <h3>Servicios</h3>
                     <ul>
                         <li><a href="https://www.apple.com/apple-music/">Apple Music</a></li>
@@ -118,7 +136,7 @@
                     </ul>
                 </div>
 
-                <div class="Cuenta">
+                <div class="servicesList-container">
                     <h3>Cuenta</h3>
                     <ul>
                         <li><a href="https://appleid.apple.com/us/">Administra tu identidad Apple</a></li>
@@ -127,7 +145,7 @@
                     </ul>
                 </div>
 
-                <div class="Acerca_de_apple">
+                <div class="servicesList-container">
                     <h3>Acerca de Apple</h3>
                     <ul>
                         <li><a href="https://www.apple.com/accessibility/">Accesibilidad</a></li>
