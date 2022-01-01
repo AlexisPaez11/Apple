@@ -50,6 +50,11 @@ main {
     display: block;
     font-size: 3.25rem;
   }
+
+  .product-cta {
+    margin: -45px 235px;
+    padding: 10px 20px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
