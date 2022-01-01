@@ -25,10 +25,9 @@ main {
 
 
 @media screen and (max-width: 700px) {
-
-  .productlist-container {
-    margin-inline: 1rem;
-}
+  .product {
+    inline-size: 22.5rem;
+    }
 
   .iphone13-p {
     display: none;
@@ -40,11 +39,16 @@ main {
   
   .frontpage {
     background-image: url(../Imagenes/Iphone-13.png) ;
-    background-size: 65vmax;
+    background-size: 52.5vmax;
     background-position: right bottom;
+  }
+  .iphone13-h1 {
+    font-size: 3rem;
+    color: #24252a;;
   }
   .iphone13-h2 {
     display: block;
+    font-size: 3.25rem;
   }
 }
 
@@ -55,15 +59,14 @@ main {
   
 }
 
-@media screen and (max-width: 1300px) {
-  .footer-desktop {
+@media screen and (min-width: 1300px) {
+  .footer-mobile {
     display: none;
   }
 }
 
-
-@media screen and (min-width: 1300px) {
-  .footer-mobile {
+@media screen and (max-width: 1300px) {
+  .footer-desktop {
     display: none;
   }
 }
