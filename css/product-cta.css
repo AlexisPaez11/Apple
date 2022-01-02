@@ -29,3 +29,10 @@
 .product-cta:hover {
     background-color: #0071e3ce;
 }
+
+@media screen and (max-width: 400px) {
+  .product-cta {
+    margin: -50px 240px;
+    opacity: 1;
+}
+}
