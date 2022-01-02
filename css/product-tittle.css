@@ -1,0 +1,18 @@
+.product-tittle {
+    font-family: SF-Medium;
+    font-size: 1.5rem;
+    color: #24252a;
+    margin: 0;
+    margin-inline-start: 1.25rem;
+    margin-block-start: 1.25rem;
+    margin-block-end: .75rem;
+    inline-size: 22.5rem;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product a {
+    text-decoration: none;
+}

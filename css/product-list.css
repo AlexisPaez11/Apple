@@ -1,0 +1,36 @@
+.productlist {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.productlistList-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.875rem;
+    align-items: center;
+}
+
+.productlistList-container > * {
+    flex-shrink: 0;
+}
+
+.product-tittle {
+    font: var();
+    color: var();
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .productlistList-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+    
+@media screen and (max-width: 875px) {
+    .productlistList-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

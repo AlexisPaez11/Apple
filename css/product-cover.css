@@ -1,0 +1,12 @@
+.product-cover {
+    position: relative;
+    overflow: hidden;
+    block-size: 26.5rem;
+}
+
+.product-cover img {
+    margin-top: -60px;
+    vertical-align: middle;
+    inline-size: 100%;
+    block-size: auto;
+}
