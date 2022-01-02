@@ -13,3 +13,9 @@
 .product:hover {
     box-shadow: rgba(100, 100, 111, 0.250) 0px 0px 25px 0px;
 }
+
+@media screen and (max-width: 400px) {
+    .product {
+        inline-size: 22.5rem;
+    }
+}

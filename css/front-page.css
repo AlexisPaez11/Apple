@@ -6,7 +6,7 @@
   background-image: url(../Imagenes/Iphone13.png);
   background-repeat: no-repeat;
   background-position: center bottom;
-  margin-block-end: 3rem;
+  margin-block-end: 3.125rem;
 }
 
 .iphone13 {
@@ -91,7 +91,8 @@
 
 @media screen and (max-width: 400px) {
   .frontpage {
-    background-image: url(../Imagenes/Iphone-13.png) ;
+    height: 38.250rem;
+    background-image: url(../Imagenes/Iphone-13.png);
     background-size: 52.5vmax;
     background-position: right 90%;
   }
@@ -104,7 +105,7 @@
   .iphone13-link {
     margin-top: 1rem;
     display: inline-block;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
     background-color: #0071e3;
     padding: 10px 15px;
